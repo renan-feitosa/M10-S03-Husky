@@ -12,7 +12,7 @@ describe('HelloWorld.vue', () => {
     const wrapper = mount(HelloWorld, {
       props: { msg: 'Título de Teste' },
     })
-    const h1 = wrapper.find('h1')
+    // const h1 = wrapper.find('h1')
     expect(h1.exists()).toBe(true)
     expect(h1.text()).toBe('Título de Teste')
   })
